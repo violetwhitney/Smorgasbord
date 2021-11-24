@@ -27,9 +27,10 @@ Today's major technologies from Amazon, Apple, to Google have invested heavily i
 Sound lends itself to ambient environments. It does not require the same visual attention that a screen or display does. You can hear something in the background to pick up the information that is shared by that sound. It is also easy to move about a space and still hear a sound. Additionally, speech also lends itself well to many people. Take for example the training required to show someone how to enter a command on a computer, vs training someone to speak to their smart home device. Most people already know how to speak. This makes speech based systems well suited to a broader base of people. 
 Consider the amount of attention required for a visually based system:
 
-![sound-1](images/sound_15.gif#img-left)
+![](images/sound_15.gif#img-left)
 
 ### Ethical considerations for smart home systems
+
 privacy           |  assumptions of race and gender in service |  reliance on technology
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](images/sound-13.png)  |  ![](images/sound-12.png)  |  ![](images/sound-11.png)
