@@ -15,6 +15,8 @@ Ambient Computing:
 
 Today cloud services and standard data protocols have created a big shift from large monolithic software products to smaller series of modular component applications called microservices that run on the cloud.
 
+![](images/low-hi-1.png)
+
 The shift towards these smaller components enables a few important things that spatial designers should be aware of:
 Lowering Barriers to Entry — It allows a non-technical user to create new applications with only the need to write tiny code snippets that execute one function rather than writing entire programs and worrying about servers and API protocols.
 
