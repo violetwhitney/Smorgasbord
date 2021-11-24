@@ -1,7 +1,30 @@
+---
+moduleid: 160
+title: Network Architecture
+published: True
+slug: Network Architecture
+---
 
-TK
+Ambient Computing:
+===========================================
+
+# Network Architecture
+## Module Summary
 ![temp](images/16-network-architecture.gif) 
 
+
+![temp](images/network-architecture-1.png) 
+
+### How IFTTT Maps to a Cybernetic Feedback Loop
+IFTTT breaks everything down into `triggers` and `actions`.
+We will think of this through the framework of **measure** and **act**.
+
+![temp](images/network-architecture-2.png) 
+
+### How IFTTT talks to services.
+IFTTT talks to services (i.e. TP-Link Kasa, or Wireless Tag). The service then talks to its hardware products. For example the Wireless Tag service talks to its tag manager and temperature sensors.
+
+![temp](images/network-architecture-3.jpeg) 
 
 Concept from cybernetics about measurement and feedback.
 
