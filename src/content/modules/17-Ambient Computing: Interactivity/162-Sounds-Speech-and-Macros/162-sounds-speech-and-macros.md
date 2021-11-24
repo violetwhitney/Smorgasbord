@@ -18,6 +18,25 @@ In this module you will learn how to work with sound in processing:
 ## Conceptual Introduction, or: Why is this interesting / important?
 Audio and speech are critical aspects to ambient environments. Because sound does not require our visual attention it has been the go-to interaction mechanism for smart home devices. 
 
+### Companies investing in speech and audio
+Today's major technologies from Amazon, Apple, to Google have invested heavily in audio and speech based commands because it extends as the primary mode for triggers and actions in an ambient environment: take for example Amazon Echos, Apple's Siri, and the Google Home. Each of these relies on a microphone and software to understand the spoken command, then responds to the command with a speaker. Consider the almost eerie level of this human-esk conversation between a person and their smart home system depicted in Amazon's patent for the Echo.
+
+![](images/sound_14.png#img-left)
+
+### Why sound is a great communication mechanism for ambient environments 
+Sound lends itself to ambient environments. It does not require the same visual attention that a screen or display does. You can hear something in the background to pick up the information that is shared by that sound. It is also easy to move about a space and still hear a sound. Additionally, speech also lends itself well to many people. Take for example the training required to show someone how to enter a command on a computer, vs training someone to speak to their smart home device. Most people already know how to speak. This makes speech based systems well suited to a broader base of people. 
+Consider the amount of attention required for a visually based system:
+
+![sound-1](images/sound_15.gif#img-left)
+
+### Ethical considerations for smart home systems
+privacy           |  assumptions of race and gender in service |  reliance on technology
+:-------------------------:|:-------------------------:|:-------------------------:
+![](images/sound-13.png)  |  ![](images/sound-12.png)  |  ![](images/sound-11.png)
+
+### Inspirational projects
+![sound-1](images/sound_14.png#img-left)
+
 Below are some examples of artists using sound in Processing in their own work:
 [Sound Translator](https://vimeo.com/groups/processing/videos/3102434)
 
