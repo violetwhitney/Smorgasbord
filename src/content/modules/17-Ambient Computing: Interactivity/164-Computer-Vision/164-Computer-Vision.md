@@ -96,5 +96,14 @@ void captureEvent(Capture c) {
   c.read();
 }
 ```
+## Challenge
+How might you create a system of your own?
+Example: Consider an icebreaker system for strangers at a party
+- Check whether faces are in view
+  - place a camera where you want to detect whether there are stranger faces in the location where you want strangers to meet
+
+- Create a message
+  - use the sound in Processing to play a message
+  - use an `if` statement to play your message anytime you detect more than one face that will cue your strangers to meet with a fun icebreaker
  ![cv-9](images/cv-9.jpeg#img-left)
  
