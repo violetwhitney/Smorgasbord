@@ -64,43 +64,47 @@ ergonomic      | organizational
 ### Physical + Digital = New Affordance
 Cities, places, and physical objects have agency. The curvature of a road is designed for the affordances of a vehicles turning radius at specific speeds. This large radius isn’t necessary for the quick turning of humans turning the corner at an intersection when they walk along a sidewalk. So the agency of space may be intentionally limited to specific types of activities. An Amazon warehouse is intended for the agility of robots. Spaces in these warehouses are demarcated into human vs robot zones so that human workers are safe and robots can move unobstructed.
 
-![temp](images/imagename.png) 
+![temp](images/dynamic-environments-19.png) 
 
 At smaller scales, physical objects and digital buttons have affordances. A tea pot can be poured whereas a button on a user interface can be pushed. The button cannot be poured, and the teapot is not designed to be pushed between an on/off state. Knobs, dials, joysticks can vary widely in their affordance. Some are intended to provide gradual change while others for binary states.
 
-![temp](images/imagename.png) 
+![temp](images/dynamic-environments-18.png) 
+
 
 The combination of both physical and digital systems create new affordances together. In the interaction of hardware and software the sum is often greater than the parts.
 
-![temp](images/imagename.png) 
+![temp](images/dynamic-environments-17.png) 
+
 
 In Jim Johnson’s Mixing Humans and Nonhumans Together: The Sociology of a Door-Closer, the author points out how the simple invention of a door allows for the state of walls to be both opened and closed allowing for dynamic states:
 
 ### "Walls are a nice invention, but if there were no holes in them, there would be no way to get in or out; they would be mausoleums or tombs. The problem is that if you make holes in the walls, anything and anyone can get in and out (bears, visitors, dust, rats, noise). So architects invented this hybrid: a hole-wall, often called a door, which, although common enough, has always struck me as a miracle technology."
 
-![temp](images/imagename.png) 
+![temp](images/dynamic-environments-16.png) 
 
-Today our physical environments are augmented with digital functionality, thus creating new and complex behaviors. This augmentation means its especially important to understand the “states” and “affordances” of these new environments. Ultimately the behavior and affordance of these environments script human behavior, not just their deceptively simple physical appearances.
+Today our physical environments are augmented with digital functionality, thus creating new and complex behaviors. This augmentation means its especially important to understand the **“states”** and **“affordances”** of these new environments. Ultimately the behavior and affordance of these environments script human behavior, not just their deceptively simple physical appearances.
 
 ### Cities Have Always Been Platforms
 The counter at a bar acts as an exchange mechanism between bar patrons and and bartenders. The side in which the person occupies delineates how they should behave. An escalator allows people to move in a direction at a particular speed. Knockers on doors alert people if someone is at the door, but only if they’re in proximity to the door. Simple painted lines on the road will delineate where pedestrians vs cars should move to avoid one another. Trains allow passengers but only if they pass between doorways during the short windows while trains are in stations.
 
-![temp](images/imagename.png) 
+![temp](images/dynamic-environments-11.gif) 
 
 Physical spaces operate as networks, much like networks operate on the internet. The size and width of roads allow for speeds of movement. The spatial adjacencies of rooms allow for certain interactions to occur or not.
 
-![temp](images/imagename.png) 
+![temp](images/dynamic-environments-15.png) 
 
 In Robin Evan’s “Figures, Doors, Passages” the invention of the hallway changed the network of the home, allowing people to “jump” between rooms without passing through others. This dramatically changed the way humans share domestic experiences in daily life. More concerning, this invention was intended to allow slaves and servants to move about the house unnoticed.
 
-![temp](images/imagename.png) 
+![temp](images/dynamic-environments-14.png) 
 
 Rooms have affordances which privilege certain speakers. A lecture hall allows one to speak to many. A courtroom’s height give authority to the judge and jury while those on trial sit lower. A listening circle attempts to create flatter conversation hierarchies.
 
-![temp](images/imagename.png) 
+![temp](images/dynamic-environments-13.png) 
 
 ### Measurement Means Feedback
 As measurement of physical space becomes more commonplace, so does the ability to think about how spaces are iterated on and changed over time similar to how websites are A/B tested and changed. The measurement of many physical aspects has historically been difficult, however the premise of “experimenting with physical space” does not come without its dangers of failure.
+
+![temp](images/dynamic-environments-12.png) 
 
 ## Tutorial
 
