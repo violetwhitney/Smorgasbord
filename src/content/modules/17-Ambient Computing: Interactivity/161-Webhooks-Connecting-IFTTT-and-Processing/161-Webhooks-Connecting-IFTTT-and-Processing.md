@@ -11,12 +11,12 @@ Ambient Computing:
 # Webhooks: Connecting IFTTT and Processing
 ## Module Summary
 
-[Webhooks](https://ifttt.com/maker_webhooks) allows you to make or receive a web request with IFTTT. This means that we can get applications not already supported by IFTTT to talk to IFTTT. We will use Processing to create an HTTP request that will alert our webhook triggering an action in IFTTT. There will be three basic parts to linking IFTTT and Processing:
+[Webhooks](https://ifttt.com/maker_webhooks) allows you to make or receive a **web request** with IFTTT. A **web request** aka an **http request** allows software developers to request information from a website, such as data from an IFTTT sensor, or a street view image from Google. This means that we can get applications not yet supported by IFTTT, such as Processing, to talk to IFTTT. We will use Processing to create an HTTP request that will alert our webhook triggering an action in IFTTT. There will be three basic parts to linking IFTTT and Processing:
 
 ![processing-diagram](images/Webhooks-Connecting-IFTTT-and-Processing-diagram1.png#img-full)
 
-- **Processing (HTTP request)** — here we can program our own unique triggers such as a button, light level, sound, number of faces in a camera can trigger our webhook. The important part is that we have all the necessary information in Processing (the API key for webhooks, and the right “event name” from webhooks.
-- **Webhook (Trigger)**— when Processing triggers an HTTP request with our event name, webhooks will relay this trigger to the appropriate action based on the recipe we have created
+- **Processing (HTTP request)** — here we can program our own unique triggers such as: a button, light level, sound, number of faces in a camera; to trigger our webhook. The important part is that we have all the necessary information in Processing (the **API key** for webhooks, and the right **“event name”** from webhooks. We'll talk about these terms in the tutorial.
+- **Webhook (Trigger)**— when Processing triggers an HTTP request with our event name, webhooks will relay this trigger to the appropriate action based on the recipe we've created
 - **IFTTT (Action)** — This can be any action from IFTTT as it normally works in IFTTT recipes.
 
 
@@ -151,3 +151,7 @@ void keyPressed() {
 ### Can you create your own Processing<>IFTTT Recipe?
 1. Try changing the trigger in Processing to something other than `keyPressed`. Could it be when the mouse is in an area of the canvas, or maybe at a certain time?
 2. Try changing the webhook action in IFTTT. It doesn't need to connect to Kasa, it could connect to a camera, an email, a sound, or something else.
+
+
+## Resources
+[What are web requests?](https://www.codecademy.com/articles/http-requests)
