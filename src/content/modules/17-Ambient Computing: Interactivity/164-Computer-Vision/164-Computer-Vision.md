@@ -107,5 +107,15 @@ Example: Consider an icebreaker system for strangers at a party
 - Create a message
   - use [sound](https://medium.com/measuring-the-great-indoors/sounds-speech-in-processing-df1e908940c) in Processing to play a message
   - use an `if` statement to play your message anytime you detect more than one face that will cue your strangers to meet with a fun icebreaker
- ![cv-9](images/cv-9.jpeg#img-left)
+
+Example: Student project changing a light based on their location in a room.  
+
+ ![cv-10](images/cv-10.png#img-left)
+
+ ![cv-7](images/cv-11.gif#img-left)
  
+ marker tracking layer          |  Processing Canvas      |  Processing IDE  
+:-------------------------:|:-------------------------:|:-------------------------:
+!![cv-7](images/cv-12.gif#img-left)  | ![](images/cv-14.gif#img-left)   | ![](images/cv-13.gif#img-left)
+ 
+
