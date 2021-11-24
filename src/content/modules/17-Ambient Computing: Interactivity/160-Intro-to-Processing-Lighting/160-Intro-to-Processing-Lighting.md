@@ -21,7 +21,7 @@ Below are some examples of artists using Processing in their own work:
 ![processing-ex](images/processing-ex-4.gif#img-left)
 ![processing-ex](images/processing-ex2.gif#img-left)
 ![processing-ex](images/processing-ex1.gif#img-left)
-![processing-ex](images/low-code.jpeg#img-left)
+
 
 ## Tutorial
 
