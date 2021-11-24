@@ -21,7 +21,18 @@ Ambient Computing:
 
 
 ## Conceptual Introduction
-TK
+On a technical level, what is particularly important about learning how to work with webhooks is that it teaches us how to talk to all kinds of websites. By learning the basic structure of a webhook, we will learn what is typically required when talking with a website.
+
+![processing-diagram](images/webhooks-1.gif#img-full)
+
+On a design level, we're learning how to connect various "worlds" that don't usually talk to each other: Processing, IOT sensors, microservices. Designers that have a knack for connecting different "worlds" such as this will have much greater fluidity when prototyping ideas and a greater ability to innovate because they won't be bound by one "world's" capabilities. For example to prototype a Grasshopper plugin can only get you so far, but if you now learn how to connect Grasshopper with you phone, the two worlds have much greater cabalities together. 
+
+![processing-diagram](images/webhooks-1.gif#img-full)
+
+On a societal level, we're interested in expanding the spatial UX toolkit.
+
+By recognizing that there are many ways to get 
+
 APIs, ability to talk to things on the web
 expanding the spatial UX toolkit - connecting software UI/programmability of Processing to IOT and microservice world 
 
