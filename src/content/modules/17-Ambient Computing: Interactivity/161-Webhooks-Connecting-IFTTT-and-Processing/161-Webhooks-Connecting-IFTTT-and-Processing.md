@@ -21,20 +21,18 @@ Ambient Computing:
 
 
 ## Conceptual Introduction
-On a technical level, what is particularly important about learning how to work with webhooks is that it teaches us how to talk to all kinds of websites. By learning the basic structure of a webhook, we will learn what is typically required when talking with a website.
+**On a technical level**, what is particularly important about learning how to work with webhooks is that it teaches us how to talk to all kinds of websites. By learning the basic structure of a webhook, we will learn what is typically required when talking with a website.
 
-![processing-diagram](images/webhooks-1.gif#img-full)
+![processing-diagram](images/webhooks-11.gif#img-full)
 
-On a design level, we're learning how to connect various "worlds" that don't usually talk to each other: Processing, IOT sensors, microservices. Designers that have a knack for connecting different "worlds" such as this will have much greater fluidity when prototyping ideas and a greater ability to innovate because they won't be bound by one "world's" capabilities. For example to prototype a Grasshopper plugin can only get you so far, but if you now learn how to connect Grasshopper with you phone, the two worlds have much greater cabalities together. 
+**On a design level**, we're learning how to connect various "worlds" that don't usually talk to each other: Processing, IOT sensors, microservices. Designers that have a knack for connecting different "worlds" such as this will have much greater fluidity when prototyping ideas and a greater ability to innovate because they won't be bound by one "world's" capabilities. For example to prototype a Grasshopper plugin can only get you so far, but if you now learn how to connect Grasshopper with you phone, the two worlds have much greater cabalities together. 
 
-![processing-diagram](images/webhooks-1.gif#img-full)
+**On a societal level**, this has cascading consequences for what designers can build, and thus will impact the spaces and technology they create. A designer who can connect the world of the web, with sensor technologies, with physical spaces, will have the ability to connect worlds that have never been united. Thus, these designers, will change the type of real world that we live in. One where interactions on the web don't require you spending your day in front of a computer screen, or clicking buttons on a tiny phone. One where web based interactions can be more contextually aware of where and when information is most relevant: i.e. getting pinged by a work email may not be relevant if you are at home with your family for Thanksgiving dinner.
 
-On a societal level, we're interested in expanding the spatial UX toolkit.
+**Ultimately** webhooks allow us to expand a spatial UX toolkit. We can think about user experiences in physical spaces and connect the world of the web with the physical world.
 
-By recognizing that there are many ways to get 
+![processing-diagram](images/webhook1-12.gif#img-full)
 
-APIs, ability to talk to things on the web
-expanding the spatial UX toolkit - connecting software UI/programmability of Processing to IOT and microservice world 
 
 ## Tutorial
 ### Creating A IFTTT Recipe with Webhooks
