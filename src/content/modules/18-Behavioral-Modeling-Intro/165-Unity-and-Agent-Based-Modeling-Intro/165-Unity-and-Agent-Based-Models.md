@@ -11,28 +11,48 @@ Behavioral Modeling Intro:
 # Unity Intro and Agent Based Modeling
 ## Module Summary
 
-[Webhooks](https://ifttt.com/maker_webhooks) allows you to make or receive a **web request** with IFTTT. A **web request** aka an **http request** allows software developers to request information from a website, such as data from an IFTTT sensor, or a street view image from Google. This means that we can get applications not yet supported by IFTTT, such as Processing, to talk to IFTTT. We will use Processing to create an HTTP request that will alert our webhook triggering an action in IFTTT. There will be three basic parts to linking IFTTT and Processing:
-
-![processing-diagram](images/Webhooks-Connecting-IFTTT-and-Processing-diagram1.png#img-full)
-
-- **Processing (HTTP request)** — here we can program our own unique triggers such as: a button, light level, sound, number of faces in a camera; to trigger our webhook. The important part is that we have all the necessary information in Processing (the **API key** for webhooks, and the right **“event name”** from webhooks. We'll talk about these terms in the tutorial.
-- **Webhook (Trigger)**— when Processing triggers an HTTP request with our event name, webhooks will relay this trigger to the appropriate action based on the recipe we've created
-- **IFTTT (Action)** — This can be any action from IFTTT as it normally works in IFTTT recipes.
+In this intro you will learn how a basic agent based model works as well as its origins.
+Additionally you will get an intro to the Unity interface.
 
 
 ## Conceptual Introduction
-**On a technical level**, what is particularly important about learning how to work with webhooks is that it teaches us how to talk to all kinds of websites. By learning the basic structure of a webhook, we will learn what is typically required when talking with a website.
+Most computational modeling describes a system in a state of equilibrium in some resting state or in a single moment. Agent based modeling tries to understand a system as dynamic. With a few rules applied across multiple individual acting agents, complex patterns emerge. If we imagine our spaces (cities, parks, homes, etc) are dynamic and flexible, the choreography of how a system like a city or a home changes is important. Does zoning and building program have to be static, or can we choreograph the use of a city by modeling and intervening in its dynamic agents?
 
-![processing-diagram](images/webhooks-11.gif#img-full)
+Today, new technologies and methods are emerging for exploring and visualizing urban complexity through these many systems and invisible dimensions. Urban planning simulation, economic modeling, traffic simulation, operations research, and agent-based modeling comprise the new tools. Open data platforms and web based gaming applications give immense power to designers, researchers and engineers to create their own simulations.
 
-**On a design level**, we're learning how to connect various "worlds" that don't usually talk to each other: Processing, IOT sensors, microservices. Designers that have a knack for connecting different "worlds" such as this will have much greater fluidity when prototyping ideas and a greater ability to innovate because they won't be bound by one "world's" capabilities. For example to prototype a Grasshopper plugin can only get you so far, but if you now learn how to connect Grasshopper with you phone, the two worlds have much greater cabalities together. 
+- [The Complexity Explorer](https://www.complexityexplorer.org/)   
+- [Examples of ABMs](http://www.complexity-explorables.org/explorables/)
 
-**On a societal level**, this has cascading consequences for what designers can build, and thus will impact the spaces and technology they create. A designer who can connect the world of the web, with sensor technologies, with physical spaces, will have the ability to connect worlds that have never been united. Thus, these designers, will change the type of real world that we live in. One where interactions on the web don't require you spending your day in front of a computer screen, or clicking buttons on a tiny phone. One where web based interactions can be more contextually aware of where and when information is most relevant: i.e. getting pinged by a work email may not be relevant if you are at home with your family for Thanksgiving dinner.
+### Agent Based Models
+An agent-based model (ABM) is a class of computational models for simulating the actions and interactions of autonomous agents (both individual or collective entities such as organizations or groups) with a view to assessing their effects on the system as a whole. [ref Wikipedia]
+ABMs are an artificial representation of the world. They are a subjective view of how systems interact based on the encoded rules, interactions and systems an author chooses to represent.
 
-**Ultimately** webhooks allow us to expand a spatial UX toolkit. We can think about user experiences in physical spaces and connect the world of the web with the physical world.
+While not a realistic representation of reality, agent based models can help us understand our world by creating simplistic models to test assumptions. Even from simple rules we can test how many complex behaviors emerge when these rules are applied to many agents. For example a simple rule to have a bird follow another bird within a short proximity to one another, creates complex clustering and swooping behavior that mimics a flocks of birds.
+
+### Game Theory
+Agent based models have also been applied in the field of economics (especially macro-economics) to understand how people might make decisions given various conditions and behaviors. One of the most important aspect is that individual agents when compounded have emergent behaviorsnot apparent when viewed alone. In game theory this means the outcome of decisions cannot be understood by looking at how individuals make decisions alone. Instead you must take into account how an individual will make a decision taking into account that they are aware of how others will make decisions. An example of this is the Prisoner’s Dilemna.
+“I feel, personally, that the study of experimental games is the proper route of travel for finding the ‘ultimate truth’ in relation to games as played by human players.”
+John Nash, The Agencies Method For Modeling Coalitions and Cooperations In Games
 
 ![processing-diagram](images/webhook1-12.gif#img-full)
 
-
 ## Tutorial
-### Creating A IFTTT Recipe with Webhooks
+### Components of an Agent Based Model
+- **individuals (agents)** — could be humans, parcels of land, vehicles, animals, etc
+- **environment** — framework in which the interactions occur, i.e. a city, a neighborhood, a floor plan, a room, etc
+- **behavior** — the procedural rules that define how the individuals behave — i.e. a person move away from other people if a space gets crowded, or a person may be attracted to other people with particular characteristics, etc
+- **parameters** — characteristics of the agent — i.e. a agent that is a person might have speed, size, distance the agent will stand next to other agents, etc
+- **input** — parameters that globally drive the model — i.e. population size of your agents, climate or location for your environment, or other data that is put into the model
+- **output** — global parameters that are the outcome of running your model
+
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+While we can recognize that these simulations are replicas of reality, the aim of simulation should also be to make our assumptions and biases explicit and testable, moving assumptions out of the black box of hidden algorithms. By clearly defining the elements of a simulation, assumptions can be vetted.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+Open simulation tools can extend agency to people outside of a disciplinary expertise. Gaming platforms can combine simulations across disciplines and have intuitive user interfaces that allow anyone to participate in rulesets usually encapsulated in an industry’s specific modeling technique and software.
+
+### Unity Intro
+
