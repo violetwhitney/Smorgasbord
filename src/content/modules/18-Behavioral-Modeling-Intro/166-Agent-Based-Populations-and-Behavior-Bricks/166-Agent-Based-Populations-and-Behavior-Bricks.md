@@ -115,5 +115,20 @@ What is quite useful about Behavior Bricks and character animation apps like it,
 - Connect the Behavior to the “Agent” Game Object
 - **Select** the `Agent` → **click** `Add Component` from the inspector tab → **select** the `Behavior Bricks - Behavior Executor`.
 
+- From the asset folders, look for the `Wander` behavior, **drag and drop** it in the Behavior Executor `Behavior` variable where it says `None (Internal Brick Asset)`. This links the wander behavior to the selected game object and executes the Behavior Bricks script during the runtime.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Under the `Behavior Params` change the values to `(-20, .5, 20)`.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
 
 
+- Launch your project and you will see the `Agent` moving to the left.
+Be aware of the Unity warning “The Enemy game object does not have a Nav Mesh Agent component to navigate. One with default values has been added”. This is due to a missing component in the `Enemy`. Specifically, `MoveToPosition` action uses the scene nav mesh, which requires a nav mesh agent component. Unity automatically adds it on runtime when missing, and warns about that. You can avoid the warning adding that component beforehand yourself.
+
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+### 4 — Composing Behaviors
