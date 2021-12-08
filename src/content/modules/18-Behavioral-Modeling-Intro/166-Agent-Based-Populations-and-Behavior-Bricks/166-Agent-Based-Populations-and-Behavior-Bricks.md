@@ -78,5 +78,42 @@ What is quite useful about Behavior Bricks and character animation apps like it,
 
 ![processing-diagram](images/webhook1-12.gif#img-full)
 
+- Create the **navigation mesh** that will be used by both the agent and the player for pathfinding. 
+- Select the floor, go to **Window** → **AI** → **Navigation**, 
+- go to the Bake Tab and press the **Bake** button.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+### 2 — Creating A Behavior
+- We’ll create a wander behavior for our Agent. 
+- Go to the Behavior Bricks menu **Window** → **Behavior Bricks** →**Editor**. That will open the Behavior Bricks Editor.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- The first step is to create a new behavior tree by clicking the `Create new behavior` button in the upper part of the `Collection` tab and naming it “Wander”.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Once the new behavior asset has been saved it will appear in the `Behaviors` list and will be opened as a new tab in the behavior graphical editor, showing an initially empty canvas.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+### 3 — Editing Behavior Parameters
+- Make the agent move to a position (-20, 0.5, 20)
+- In the canvas for the `Wander` behavior **right-click** to add a new node and choose the action **MoveToPosition** from the drop-down menu. You can type **move** in the search box to quickly find the action.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+
+- Click the new `MoveToPosition' node → **select** the `Node` tab in the Behavior Bricks inspector.
+- This tab shows the properties of the selected node in the canvas. In this case you will find the input parameters, that constitute the information the action needs to know how to proceed.
+- Change the dropdown from `CONSTANT` to `BLACKBOARD` and **change** the target name to `wanderTarget`.
+- All changes are automatically saved in your project so, once done, you can close the Behavior Bricks editor.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Connect the Behavior to the “Agent” Game Object
+- **Select** the `Agent` → **click** `Add Component` from the inspector tab → **select** the `Behavior Bricks - Behavior Executor`.
+
 
 
