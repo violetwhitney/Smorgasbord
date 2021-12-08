@@ -132,3 +132,93 @@ Be aware of the Unity warning “The Enemy game object does not have a Nav Mesh 
 ![processing-diagram](images/webhook1-12.gif#img-full)
 
 ### 4 — Composing Behaviors
+- Lets make the behavior more interesting for our Agent by making the `MoveToPosition` go to a `Random` position.
+- Open `Behavior Bricks Editor` again **Window** →**Behavior Bricks** →**Editor** and make sure you’re in the `Wander` tab.
+- **Right click** to add a new node to the canvas for the `GetRandomInArea` action.
+- Create a new blackboard input parameter and call it `wanderArea`.
+- Select the previous `wanderTarget` as the blackboard parameter where the action will write the selected position.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- In the `Blackboard` tab **change** the `wanderTarget` from `IN` to `LOCAL`.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- The action marked with an `R`(`MoveToPosition`) is the root of the behavior tree and will be executed in the first place. In fact, `GetRandomInArea` will not be executed at all. In order to create a behavior with two actions, we need to compose them.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- **Right click** on the canvas an add a composite `Sequence Node`. A Sequence is a composite node that executes its children in order.
+- **Click** the handle from the bottom of the `Sequence Node` and connect it to `MoveToPosition` and `GetRandomArea`, clicking at the top of each node to make the connection.
+Our behavior is now a valid tree!
+The respective numbers `1` and `2` at the top of these nodes represent the order of execution. If you move the nodes around the numbers, and thus the execution order will change.
+
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+### Making A Repeat Behavior
+- The sequence executes its children once. We want the Agent to continually wander around, so when it reaches the random position, another one should be selected and the Agent should go there.
+- Insert a `Repeat Decorator` node into the canvas. This internal node executes its child behavior again and again.
+- Create a connection from the `Repeat` node to the `Sequence`. Observe how the `R` mark readjusts itself.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Close the editor. Remember that behaviors are automatically saved.
+- Select the `Agent` game object and observe the behavior executor parameters. You’ll notice `wanderArea` is still unestablished so the GetRandomInArea does not know the area where the position should be chosen from. Specifically, `GetRandomInArea` requires a game object with a box or `sphere collider`.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Select the `Floor` game object, and add it a Box collider. Set `(10, 0, 10)` as its size.
+- Select the `Agent` game object so you can see its elements in the inspector, and drag and drop the `Floor` into the `wanderArea` parameter.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Play the scene. Observe the wander behavior of the enemy. It will continually move around to random positions.
+- The final version of this `Wander` behavior is available as `Done Wander` in the Behaviors Collection.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+### 5 — Conditions & Perceptions
+We want the player to move around using the mouse. This requires three steps:
+- Detect the mouse click. This provides us with a coordinate in screen space (2D).
+- Convert the click position into a 3D coordinate using a raycast to detect the object under the mouse.
+- Ask the player avatar to move to that position.
+
+We’ll use the built-in `CheckMouseButton` condition that test if the user has just pressed one of the mouse buttons and ends with success in that case.
+
+- Open the editor window and create a behavior with the name `ClickAndGo`.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Add a `CheckMouseButton` node.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+
+- Add a `FromMouseToWorld` action. This action convert the current mouse position from screen coordinates to world coordinates. It has four parameters:
+   - `camera`: camera used for the translation. Add a new blackboard field and keep the default name, `camera`.
+   - `mask`: layer mask used for filtering the raycasting. Add a new blackboard field and keep the default name.
+   - `selectedGameObject`: an output parameter where the action will write back the game object under the mouse, if any. We are not interested on it in this behavior, so we will keep it unassigned.
+   - `selectedPosition`: output parameter with the 3D position of the mouse relative to the chosen camera. Add a new blackboard field and keep the default name.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Add a `MoveToPosition`. Change its target parameter to the `selectedPosition` field in the blackboard.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- In the Blackboard tab change the `selectedPosition` parameter type from `INOUT` to `LOCAL` because it is not relevant for the game object.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Add a `Sequence` and make those three nodes its children.
+- Add a `Repeat` node so the sequence loops again and again and the user can move around to different positions.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Close the editor and add a Behavior executor component in the `Player` game object. Attach to it the `ClickAndGo` behavior.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
+- Configure the `camera` parameter with the `Main Camera`, and set the `mask` to `Everything`, so the screen-to-world transformation is done using the camera view, and the raycasting considers all objects in the scene.
