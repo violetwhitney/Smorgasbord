@@ -12,8 +12,8 @@ Ambient Computing:
 ## Module Summary
 In this module you will get an intro to dynamic environments, and understand some of the basic methods and fields when working with environments that are "web connected" and change dynamically based on **"states"**.
 
-## Conceptual Introduction, or: Why is this interesting / important?
-Explaining, designing and engineering products that interact between the physical and digital world can be counter-intuitive. The following are a collection of common diagram types which have helped me explain and design physical-digital interactions. Each diagram type helps explain unique dimensions within the complexity of todays digitally and physically interconnected world.
+## Conceptual Introduction
+Explaining, designing and engineering products that interact between the physical and digital world can be counter-intuitive. Doing such requires drawing interactions that are inherently difficult to see. How do you demonstrate an invisible bluetooth connection triggered by location? How can you capture a sequence of steps over time in a single diagram? The following are a collection of common diagram types which have helped me explain and design physical-digital interactions. Each diagram type helps explain unique dimensions within the complexity of todays digitally and physically interconnected world.
 
 **Assembly** — shows how a system’s comprised parts are assembled. This separation of each component part facilitates this understanding and can include additional specifications on dimensions and item ids for each component. Assembly drawings also sometimes include instructions and sequencing as seen in Ikea drawings.
 
