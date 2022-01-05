@@ -5,15 +5,25 @@ published: True
 slug: Network Architecture
 ---
 
-Ambient Computing:
-===========================================
+# System Architecture: How Tech Talks
+In this module we'll learn about system architecture and how technology talks to one another. To help understand system architecture we also cover:
+- cybernetic systems
+- how IFTTT works 
+- understand an IFTTT connected system as a cybernetic system
+- you will create your first IFTTT recipe
 
-# Network Architecture
-## Module Summary
 ![temp](images/16-network-architecture.gif) 
 
 
 ![temp](images/network-architecture-1.png) 
+
+### 
+IFTTT is an automation tool that lets you easily script actions that link together a wide variety of devices and services. IFTTT is short for "If This Then That," a programming convention that defines in a nutshell how the service works. The "if this" part is known as the trigger, and "then that" is the action. IFTTT is a useful tool for creating new network architecture.
+
+1. Go to [IFTTT](https://ifttt.com/home)
+2. Go to `Explore` → here you will see many premade IFTTT recipes: e.g. if a 
+3. Go to `Create` → to create a new application
+4. click on the **“this”** to choose our trigger. Search for **“webhooks”**. Select `webhooks`.
 
 ### How IFTTT Maps to a Cybernetic Feedback Loop
 IFTTT breaks everything down into `triggers` and `actions`.
@@ -84,4 +94,37 @@ Where it once required a monolithic application to program something
 Now with “End User Programming” you can just prototype something on the fly with a short sentence that is strung together to longer programs
 This can fundamentally change who has agency.
 
+## Tutorial
+1. Sign in to IFTTT or create a new account.
+2. Select the `Get more` button in the upper right hand corner.
 
+![temp](images/image.gif) 
+
+3. Select the `+` button underneath the `Search bar` on the righthand side
+4. Select an application from the `+` between “If” and “This”
+
+![temp](images/image.gif) 
+
+5. Select a trigger `service`
+6. Sign up for the service if you do not already have the service. Note you may choose to use a service you already have for convenience. Alternatively for security you may choose instead to create a new service account with a unique email to keep your primary accounts disconnected from IFTTT.
+
+![temp](images/image.gif) 
+
+7. Choose a trigger
+8. Select the fields for your trigger, and select `Create trigger`
+
+![temp](images/image.gif) 
+
+9. Select the `+` between the “Then” and “That”. You’ll notice an icon for the first `+` has been replaced by an icon for the `trigger service` we’ve connected to.
+10. Select an action service
+Sign up for the action service if you have not yet, if you are already signed up you will be taken directly to choosing the action.
+
+11. Choose the action
+12. Fill out the action fields and select create action
+
+![temp](images/image.gif) 
+
+13. Ensure your recipe looks correct and select `Finish`
+14. This is now stored as a saved recipe on `My Applets`
+
+![temp](images/image.gif) 
