@@ -1,68 +1,36 @@
 ---
 moduleid: 156
-title: Dynamic Environments
+title: Ambient Environments
 published: True
-slug: Dynamic Environments
+slug: Ambient Environments
 ---
 
-Ambient Computing:
-===========================================
+# Ambient Environments
+In this module you will get an intro to some of the basic methods for describing and diagramming ambient environments. Additionally you will learn about **"states"** and change dynamically based on **"states"**.
 
-# Dynamic Environments
-## Module Summary
-In this module you will get an intro to dynamic environments, and understand some of the basic methods and fields when working with environments that are "web connected" and change dynamically based on **"states"**.
+## Diagramming for Ambient Environments
+Explaining, designing and engineering products that interact between the physical and digital world can be counter-intuitive. Doing such requires showing interactions that are inherently difficult to see. How do you demonstrate an invisible bluetooth connection triggered by location? How can you capture illusive concepts like time or a sequence of steps  in a single diagram? 
 
-## Conceptual Introduction
-Explaining, designing and engineering products that interact between the physical and digital world can be counter-intuitive. Doing such requires drawing interactions that are inherently difficult to see. How do you demonstrate an invisible bluetooth connection triggered by location? How can you capture a sequence of steps over time in a single diagram? The following are a collection of common diagram types which have helped me explain and design physical-digital interactions. Each diagram type helps explain unique dimensions within the complexity of todays digitally and physically interconnected world.
+The following are a collection of common diagram types which have helped me explain and design physical-digital interactions. Each diagram type helps explain unique dimensions within the complexity of todays digitally and physically interconnected world.
 
-**Assembly** — shows how a system’s comprised parts are assembled. This separation of each component part facilitates this understanding and can include additional specifications on dimensions and item ids for each component. Assembly drawings also sometimes include instructions and sequencing as seen in Ikea drawings.
+**Diagram Type** |  What it does |  Example
+:-------------------------:|:-------------------------:|:-------------------------:
+**Assembly** |  shows how a system’s comprised parts are assembled. This separation of each component part facilitates this understanding and can include additional specifications on dimensions and item ids for each component. Assembly drawings also sometimes include instructions and sequencing as seen in Ikea drawings. |  ![](images/dynamic-environments-9.gif)
+**Rube Goldberg** | show sequence of events in a complicated often impractical contraptions that creates a simple action.|   ![](images/dynamic-environments-10.gif)    
+**Patent** | illustrates a patent invention, and its components. Many patent drawings are also assembly drawings. Patent drawings are heavily notated to describe component pieces, cross referenced in legends and reports. | ![](images/dynamic-environments-5.gif)
+**Tech Stack**  |  shows how software products and programming languages are inter-related to create a web or mobile application. | ![](images/dynamic-environments-6.gif)  
+**Flow Diagram** | shows sequence of movements or actions of people or things involved in a complex system. | ![](images/dynamic-environments-3.gif)
+**Decision Tree** | organizes decisions into branches and their possible consequences. |  ![](images/dynamic-environments-4.gif)  
+**User Journey** | explains how an individual user of a particular product or service experiences a series of interactions (touch points) along a journey in aim of a particular outcome from their use of the product or service.|![](images/dynamic-environments-2.gif) 
+**User Flow** | show paths in a user interface which a typical user will follow using a website or app. |   ![](images/dynamic-environments-1.gif)  
+**Ergonomics** | shows how a product is optimized for the human body, i.e. how its characteristics, such as proportions, weight, responds to the human hearing, sight, temperature preferences, etc. | ![](images/dynamic-environments-7.gif) 
+**Organizational** | shows the structure of an organization/institution/nation and the relative relationships of its people, parts or positions. |  ![](images/dynamic-environments-8.gif)  
 
-**Rube Goldberg** — show sequence of events in a complicated often impractical contraptions that creates a simple action.
+### Challenge
+Sketch a quick diagram (5 minutes) of a room of your own borrowing some of the diagramming techniques from above. Can you capture time? Digital interactions like wifi or bluetooth connections to physical aspects in a space? 
 
-assembly        | rube goldberg
-:-------------------------:|:-------------------------:
-![](images/dynamic-environments-9.gif)  |  ![](images/dynamic-environments-10.gif)  
-
-
-**Patent** — illustrates a patent invention, and its components. Many patent drawings are also assembly drawings. Patent drawings are heavily notated to describe component pieces, cross referenced in legends and reports.
-
-**Tech Stack** — shows how software products and programming languages are inter-related to create a web or mobile application.
-
-patent        | tech stack  
-:-------------------------:|:-------------------------:
-![](images/dynamic-environments-5.gif)  |  ![](images/dynamic-environments-6.gif)  
-
-**Flow Diagram** — shows sequence of movements or actions of people or things involved in a complex system.
-
-**Decision Tree** — organizes decisions into branches and their possible consequences.
-
-flow diagram        | decision tree
-:-------------------------:|:-------------------------:
-![](images/dynamic-environments-3.gif)  |  ![](images/dynamic-environments-4.gif)  
-
-**User Journey** — explains how an individual user of a particular product or service experiences a series of interactions (touch points) along a journey in aim of a particular outcome from their use of the product or service.
-
-**User Flow** — show paths in a user interface which a typical user will follow using a website or app.
-
-flow diagram        | decision tree
-:-------------------------:|:-------------------------:
-![](images/dynamic-environments-2.gif)  |  ![](images/dynamic-environments-1.gif)  
-
-
-**Ergonomics** —shows how a product is optimized for the human body, i.e. how its characteristics, such as proportions, weight, responds to the human hearing, sight, temperature preferences, etc.
-
-**Organizational** — shows the structure of an organization/institution/nation and the relative relationships of its people, parts or positions.
-
-ergonomic      | organizational
-:-------------------------:|:-------------------------:
-![](images/dynamic-environments-7.gif)  |  ![](images/dynamic-environments-8.gif)  
-
-
-## The NewAgency of Physical Places
-### How the internet and digital devices change the use of space.
-
-### Physical + Digital = New Affordance
-Cities, places, and physical objects have agency. The curvature of a road is designed for the affordances of a vehicles turning radius at specific speeds. This large radius isn’t necessary for the quick turning of humans turning the corner at an intersection when they walk along a sidewalk. So the agency of space may be intentionally limited to specific types of activities. An Amazon warehouse is intended for the agility of robots. Spaces in these warehouses are demarcated into human vs robot zones so that human workers are safe and robots can move unobstructed.
+## The New Agency of Physical Places
+Cities, places, and physical objects have agency. The curvature of a road is designed for the affordances of a vehicle's turning radius at specific speeds. This large radius isn’t necessary for the quick turning of humans turning the corner at an intersection when they walk along a sidewalk. So the agency, or ability, of space may be intentionally limited to specific types of activities based on its form. An Amazon warehouse is intended for the agility of robots. Spaces in these warehouses are demarcated into human vs robot zones so that human workers are safe and robots can move unobstructed.
 
 ![temp](images/dynamic-environments-19.png) 
 
@@ -70,7 +38,7 @@ At smaller scales, physical objects and digital buttons have affordances. A tea 
 
 ![temp](images/dynamic-environments-18.png) 
 
-
+### Physical + Digital = New Affordance
 The combination of both physical and digital systems create new affordances together. In the interaction of hardware and software the sum is often greater than the parts.
 
 ![temp](images/dynamic-environments-17.png) 
@@ -108,8 +76,8 @@ As measurement of physical space becomes more commonplace, so does the ability t
 
 ## Tutorial
 
-1. **Download Processing.**  
-Place [Processing](https://processing.org/download) in the Applications folder on your computer (or Program Files for Windows). When you double click Processing, it should install and launch the application with a new empty sketch. A sketch is where you will write your code. We’ll be writing code in Java inside of Processing.
+1. **Make a diagram.**  
+Something something...
 
 
 
