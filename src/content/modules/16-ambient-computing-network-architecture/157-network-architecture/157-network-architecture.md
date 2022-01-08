@@ -6,16 +6,15 @@ slug: Network Architecture
 ---
 
 # System Architecture: How Tech Talks
-In this module we'll learn about system architecture and how technology talks to one another. To help understand system architecture we also cover:
+In this module we'll learn about system architecture and how technology talks to other technology. To help understand system architecture we also cover:
 - cybernetic systems
 - how IFTTT works 
 - understand an IFTTT connected system as a cybernetic system
 - you will create your first IFTTT recipe
 
-![temp](images/16-network-architecture.gif) 
+![temp](images/20-network-architecture.gif) 
 
 
-![temp](images/network-architecture-1.png) 
 
 ### 
 IFTTT is an automation tool that lets you easily script actions that link together a wide variety of devices and services. IFTTT is short for "If This Then That," a programming convention that defines in a nutshell how the service works. The "if this" part is known as the trigger, and "then that" is the action. IFTTT is a useful tool for creating new network architecture.
@@ -128,3 +127,7 @@ Sign up for the action service if you have not yet, if you are already signed up
 14. This is now stored as a saved recipe on `My Applets`
 
 ![temp](images/image.gif) 
+
+![temp](images/16-network-architecture.gif) 
+
+![temp](images/network-architecture-1.png) 
