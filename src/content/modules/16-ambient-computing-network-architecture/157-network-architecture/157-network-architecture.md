@@ -124,30 +124,18 @@ State Feedback Loop → image change (image dif) → play video
 4. Select a service from the list of services. You can also look for services you are familiar with. One of my favorite services to start with is "Weather Underground" which can allow you to make triggers based on the weather in specific cities.
 5. Select a trigger `service`
 6. Sign up for the service if you do not already have the service. Note you may choose to use a service you already have for convenience. Alternatively for security you may choose instead to create a new service account with a unique email to keep your primary accounts disconnected from IFTTT.
-
-![temp](images/network-architecture-tutorial-1.gif) 
-
-
 7. Next you will fill out the trigger field which will allow you to set the threshold for your trigger. Note the trigger fields are unique to each service you choose.
-8. Next you will choose a trigger
-9. Select the fields for your trigger, and select `Create trigger`
 
-![temp](images/image.gif) 
+![temp](images/network-architecture-tutorial.gif) 
 
-9. Select the `+` between the “Then” and “That”. You’ll notice an icon for the first `+` has been replaced by an icon for the `trigger service` we’ve connected to.
-10. Select an action service
-Sign up for the action service if you have not yet, if you are already signed up you will be taken directly to choosing the action.
+8. Next you will choose an action by selecting `Add` under "Then That".
+9. Again select a service of your choosing Note again its easiest to start with a service you already have access to. I like to start with an "email" since this is relatively simple. 
+10. Select the fields for your action, and select `Create action`. You will notice in the case of the "email" action in the example gif below theere are "ingredients" which can be further customized to adapt your email.
+11. Select `Continue`.
+12. Review that your recipe is correct and select `Finish`.
+13. This is now stored as a saved recipe on `My Applets`
 
-11. Choose the action
-12. Fill out the action fields and select create action
-
-![temp](images/image.gif) 
-
-13. Ensure your recipe looks correct and select `Finish`
-14. This is now stored as a saved recipe on `My Applets`
-
-![temp](images/image.gif) 
-
+![temp](images/network-architecture-tutorial-2.gif) 
 
 
 
