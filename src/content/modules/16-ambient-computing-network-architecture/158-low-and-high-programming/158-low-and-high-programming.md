@@ -4,16 +4,19 @@ title: Low and High Programming
 published: True
 slug: Low and High Programming
 ---
-
-Ambient Computing:
-===========================================
-
 # Low and High Programming
 ## Module Summary
+In this module you will get a conceptual overview of the software technology that enables modern day ambient computing.
+- low and high programming
+- Cloud concepts - APIs, Microservices, Servers, CMs, Cloud, Edge Computing
 
 ### Out of the Weeds and into the Clouds: Microservices
 
-Today cloud services and standard data protocols have created a big shift from large monolithic software products to smaller series of modular component applications called microservices that run on the cloud.
+The development of software today is drastically different from the development of software products ten years ago. Previously software products consisted of large monolithic software that was developed and owned as proprietary by individual companies. Today software is developed instead as a series of smaller modular component applications called microservices that run on the cloud. The **"cloud""** refers to on-demand compute resources, typically servers (oftentimes in many locations). Some examples of modern day clouds are AWS (Amazon Web Services), Microsoft Azure, GCS (Google Cloud). The majority of websites and applications we access today are hosted on the cloud.
+
+
+
+in a way cloud services and standard data protocols have created a
 
 ![](images/low-hi-1.png)
 
@@ -39,3 +42,9 @@ Microservices makes it easier for designers to play with design ideas because it
 **microservices** — application development where a large application is built as a suite of smaller modular services. On IFTTT Wireless Tags, Phillips Hue Lights, Amazon Echo, etc. are examples of microservices.
 **Functions as a Service (FaaS)** — Smaller still than microservices, FaaS uses small code snippets of specific functions to execute a tiny portion of a service. In IFTTT, this is done by creating recipes and writing single functions such as “If the temp > 72 degrees, then turn on the fan”.
 **Everything as a Service (XaaS)** — Shifting from selling products to selling capabilities can be complex and resource-intensive. customize their computing environments to craft the experiences they desire.
+
+- **Virtual Machine** - emulation of a computer usually a distinct hardware  software combo
+- **Micro-Services** - architectural design that separates portions of a (usually monolithic) application into small, self-containing services
+- **API** - Application Programming Interface, - keyword is interface that allows two apps to talk to each other, APIs are the doorways, so to speak, that allow developers to interact with an application. “contract” or set of clearly defined methods of communication between various services
+- **Edge Computing** - brings computation and data storage closer to the sources of data. This is expected to improve response times and save bandwidth
+- **End User Programming** - Non-expert programming
