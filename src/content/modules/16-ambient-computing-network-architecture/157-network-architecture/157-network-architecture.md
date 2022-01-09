@@ -139,6 +139,3 @@ State Feedback Loop → image change (image dif) → play video
 
 
 
-
-### Example Student Projects for Inspiration
-
