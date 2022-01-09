@@ -11,13 +11,22 @@ To help understand system architecture we also cover:
 1. cybernetic systems
 2. how IFTTT works 
 3. understand an IFTTT connected system as a cybernetic system
-4. you will create your first IFTTT recipe
+4. you will create your first IFTTT recipe: your own system architecture
 
 ![temp](images/20-network-architecture.gif) 
 
 
 ### 0. System Architecture
-What is system architecture
+**"System architecture"** is a conceptual model that describes the structure and behavior of multiple components and subsystems like multiple software applications, network devices, hardwareof a system. It describes how a system works together; how the components communicate and interact and thus how the system behaves overall. In a similar wa: **"software architecture"** describes the high level structure of a software system and how software components interact with one another. A "software architect" is a critical role that defines and recommends the organizational structure of IT components to achieve the goal of the software.
+
+Because we are working with many components beyond just software, it is critical for us to understand how these many systems interact with one another. Through IFTTT recipes we will work with:
+- hardware: 
+   - sensors: microphones, motion sensors, cameras
+   - actuators: lights, speakers, projections
+- software: IFTTT recipes
+- mechanical components: doors, a light switches
+
+
 
 ### 1. Cybernetic System
 What is a cybernetic system
@@ -100,22 +109,6 @@ State Feedback Loop → image change (image dif) → play video
 ![temp](images/network-architecture-5.jpeg) 
 
 
-
-Concept from cybernetics about measurement and feedback.
-
-Take a stance that we should see buildings as ongoing living systems to be designed and changed. How should standards continually adapt?
-Architects have this long problem - when they design buildings they have to wait decades before they understand how it all pans out - so they use models to predict how a building or neighborhood will behave
-But you can’t really program and deploy changes to smart home products so quickly - you need to have immense programming experience to build something like an Amazon Echo
-Arduinos however are much easier to program - they are much easier to understand and program
-Finally microservices like IFTTT allow you to program and prototype applications in human readable language
-
-Whats interesting about this to me is that Individuals can deploy and test changes that will immediately influence their behavior
-
-
-Where it once required a monolithic application to program something
-Now with “End User Programming” you can just prototype something on the fly with a short sentence that is strung together to longer programs
-This can fundamentally change who has agency.
-
 #### Make a Recipe on IFTTT
 1. Sign in to IFTTT or create a new account.
 2. Select the `Get more` button in the upper right hand corner.
@@ -153,4 +146,7 @@ Sign up for the action service if you have not yet, if you are already signed up
 
 ![temp](images/16-network-architecture.gif) 
 
+
+
+### Example Student Projects for Inspiration
 
