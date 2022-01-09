@@ -5,17 +5,13 @@ published: True
 slug: sounds-speech-and-macros
 ---
 
-Ambient Computing:
-===========================================
-
 # Sounds, Speech and Macros
-## Module Summary
 In this module you will learn how to work with sound in processing: 
 - playing an audio file
 - using the microphone
 - using speech
 
-## Conceptual Introduction, or: Why is this interesting / important?
+## Sound is fundamental to ambient environments
 Audio and speech are critical aspects to ambient environments. Because sound does not require our visual attention it has been the go-to interaction mechanism for smart home devices. 
 
 ### Companies investing in speech and audio
