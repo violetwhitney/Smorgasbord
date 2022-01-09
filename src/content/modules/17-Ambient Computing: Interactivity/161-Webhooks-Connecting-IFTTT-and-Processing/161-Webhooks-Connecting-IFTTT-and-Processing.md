@@ -6,6 +6,8 @@ slug: webhooks-connecting-ifttt-and-processing
 ---
 
 # Webhooks: Connecting IFTTT and Processing
+In this module you will learn about webhooks and how to connect Processing to IFTTT recipes.
+
 [Webhooks](https://ifttt.com/maker_webhooks) allows you to make or receive a **web request** with IFTTT. A **web request** aka an **http request** allows software developers to request information from a website, such as data from an IFTTT sensor, or a street view image from Google. This means that we can get applications not yet supported by IFTTT, such as Processing, to talk to IFTTT. We will use Processing to create an HTTP request that will alert our webhook triggering an action in IFTTT. There will be three basic parts to linking IFTTT and Processing:
 
 ![processing-diagram](images/Webhooks-Connecting-IFTTT-and-Processing-diagram1.png#img-full)
