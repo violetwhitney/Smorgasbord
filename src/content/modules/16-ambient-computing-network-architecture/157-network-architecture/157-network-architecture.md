@@ -26,6 +26,7 @@ Because we are working with many components beyond just software, it is critical
 - software: IFTTT recipes
 - mechanical components: doors, a light switches
 
+![temp](images/17-network-architecture.png =250x) 
 
 
 ### 1. Cybernetic System
