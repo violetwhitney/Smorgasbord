@@ -11,21 +11,27 @@ In this module you will get a conceptual overview of the software technology tha
 - Cloud concepts - APIs, Microservices, Servers, CMs, Cloud, Edge Computing
 
 ### Out of the Weeds and into the Clouds: Microservices
+#### Microservices Replace Monolithic Software Development
+The development of software today is drastically different from the development of software products ten years ago. Previously software products consisted of large **"monolithic"** software i.e. "a single-tiered software application in which the user interface and data access code are combined into a single program from a single platform". Monolithic software was developed and owned as proprietary by individual companies and usually stored on physical servers owned by those companies. Additionally this monolothic software development required hiring software developeres that could dig deep into the technical depths of the software to add or update the code.
 
-The development of software today is drastically different from the development of software products ten years ago. Previously software products consisted of large monolithic software that was developed and owned as proprietary by individual companies. Today software is developed instead as a series of smaller modular component applications called microservices that run on the cloud. The **"cloud""** refers to on-demand compute resources, typically servers (oftentimes in many locations). Some examples of modern day clouds are AWS (Amazon Web Services), Microsoft Azure, GCS (Google Cloud). The majority of websites and applications we access today are hosted on the cloud.
+Today's software is developed instead as **"micro-services"**, architectural design that separates portions of a (usually monolithic) application into small, self-containing services. Microservices are a series of smaller modular component applications that run on the cloud. 
+![](images/low-hi-2.png)
 
+The **"cloud""** refers to on-demand compute resources, typically servers (oftentimes in many locations). Some examples of modern day clouds are AWS (Amazon Web Services), Microsoft Azure, GCS (Google Cloud). The majority of websites and applications we access today are hosted on the cloud. On IFTTT Wireless Tags, Phillips Hue Lights, Amazon Echo, etc. are examples of microservices. Smaller still than the code modules of a microservice are **Functions as a Service (FaaS)** which use small code snippets of specific functions to execute a tiny portion of a service. In IFTTT, this is done by creating recipes and writing single functions such as “If the temp > 72 degrees, then turn on the fan” (see diagram above of user written code).
 
+diagram
 
-in a way cloud services and standard data protocols have created a
+#### Benefits of Microservice Structure
+The shift towards these smaller components enables a few important things that spatial designers should be aware of:
+- **Lowering Barriers to Entry** — It allows a non-technical user to create new applications with only the need to write tiny code snippets that execute one function rather than writing entire programs and worrying about servers and API protocols. By expanding the access to  microservices to non-technical users this means a much larger portion of people can program and customize services. The concept **"End User Programming"** refers to non-expert programming and is a key feature in many microservices and functions as a service as it expands who can access. End user programming and FaaS often rely on **"No Code"** or **Low Code"**
 
 ![](images/low-hi-1.png)
 
-The shift towards these smaller components enables a few important things that spatial designers should be aware of:
-- **Lowering Barriers to Entry** — It allows a non-technical user to create new applications with only the need to write tiny code snippets that execute one function rather than writing entire programs and worrying about servers and API protocols.
+- **From “in the Weeds” to “in the Clouds”** — Services like IFTTT allow designers to design with more visual higher level abstractions of high level programming languages. Moving from low level to high level programming means spending less time programming nitty gritty components to thinking about how services and actions interrelate and what outcomes they drive.
 
-![](images/low-hi-2.png)
+In programming a high level programming language (Java, Python) use more abstraction making it easy for a human to understand whereas a **"low level programming"** (machine language) speaks directly to the computer and is difficult for a human to understand. 
 
-- **From “in the Weeds” to “in the Clouds”** — Services like IFTTT allow designers to design with more visual higher level abstractions of low level code. Moving from low level to high level programming means spending less time programming nitty gritty components to thinking about how services and actions interrelate and what outcomes they drive.
+to a low low-level language is machine-oriented.
 
 ![](images/low-hi-3.jpeg)
 
@@ -38,13 +44,14 @@ Microservices makes it easier for designers to play with design ideas because it
 
 ![](images/low-hi-5.jpeg)
 
-### Terms to know:
-**microservices** — application development where a large application is built as a suite of smaller modular services. On IFTTT Wireless Tags, Phillips Hue Lights, Amazon Echo, etc. are examples of microservices.
-**Functions as a Service (FaaS)** — Smaller still than microservices, FaaS uses small code snippets of specific functions to execute a tiny portion of a service. In IFTTT, this is done by creating recipes and writing single functions such as “If the temp > 72 degrees, then turn on the fan”.
-**Everything as a Service (XaaS)** — Shifting from selling products to selling capabilities can be complex and resource-intensive. customize their computing environments to craft the experiences they desire.
+### Edge Computing
+
+- **Edge Computing** - brings computation and data storage closer to the sources of data. This is expected to improve response times and save bandwidth
+
+
+
 
 - **Virtual Machine** - emulation of a computer usually a distinct hardware  software combo
-- **Micro-Services** - architectural design that separates portions of a (usually monolithic) application into small, self-containing services
+- 
 - **API** - Application Programming Interface, - keyword is interface that allows two apps to talk to each other, APIs are the doorways, so to speak, that allow developers to interact with an application. “contract” or set of clearly defined methods of communication between various services
-- **Edge Computing** - brings computation and data storage closer to the sources of data. This is expected to improve response times and save bandwidth
-- **End User Programming** - Non-expert programming
+
