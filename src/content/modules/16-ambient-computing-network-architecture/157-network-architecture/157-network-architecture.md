@@ -17,8 +17,9 @@ To help understand system architecture we also cover:
 
 
 ### 0. System Architecture
-**"System architecture"** is a conceptual model that describes the structure and behavior of multiple components and subsystems like multiple software applications, network devices, hardwareof a system. It describes how a system works together; how the components communicate and interact and thus how the system behaves overall. In a similar wa: **"software architecture"** describes the high level structure of a software system and how software components interact with one another. A "software architect" is a critical role that defines and recommends the organizational structure of IT components to achieve the goal of the software.
+**"System architecture"** is a conceptual model that describes the structure and behavior of interacting components and subsystems such as interactions between software applications, network devices, hardware and mechanics. It describes how a system works together; how the components communicate and interact and thus how the system behaves overall. In a similar way: **"software architecture"** describes the high level structure of a software system and how software components interact with one another. A "software architect" is a critical role that defines and recommends the organizational structure of IT components to achieve the goal of the software. In your case you will play the role of a system architect thinking through what components are best for the goals of your system.
 
+![temp](images/17-network-architecture.png) 
 Because we are working with many components beyond just software, it is critical for us to understand how these many systems interact with one another. Through IFTTT recipes we will work with:
 - hardware: 
    - sensors: microphones, motion sensors, cameras
@@ -26,11 +27,15 @@ Because we are working with many components beyond just software, it is critical
 - software: IFTTT recipes
 - mechanical components: doors, a light switches
 
-![temp](images/17-network-architecture.png =250x) 
-
 
 ### 1. Cybernetic System
-What is a cybernetic system
+Cybernetics is a transdisciplinary approach for exploring regulatory systems—their structures, constraints, and possibilities. 
+By understanding cybernetic systems, where measurements and actions are connected in a feedback loop, we can understand the built environment as dynamic, design it as such, as well as understand technology as an integral part of how our built environment behaves.
+
+![temp](images/network-architecture-cybernetics.png) 
+
+At its simplist level we can understand a cybernetic loop as the feedback loops of interacting systems. In the diagram above this is comprised of a physical "environment" that is impacted by "disturbances" or aspects that change that environment. This environment can be "measured" by a sensor. A comparator decides whether that measurement has reached some threshold in order to trigger an action that will thus impact the environment.
+
 ![temp](images/network-architecture-1.png) 
 
 ### 2. How IFTTT Works
@@ -66,6 +71,8 @@ Below you see a diagram of how the service talks with the hardware.
 
 ![temp](images/network-architecture-3.jpeg) 
 
+To recap:
+![temp](images/16-network-architecture.gif) 
 
 ### 4. Create Your Own IFTTT Recipe
 #### Brainstorm Some Recipes
@@ -112,22 +119,18 @@ State Feedback Loop → image change (image dif) → play video
 
 #### Make a Recipe on IFTTT
 1. Sign in to IFTTT or create a new account.
-2. Select the `Get more` button in the upper right hand corner.
-
-![temp](images/image.gif) 
-
-3. Select the `+` button underneath the `Search bar` on the righthand side
-4. Select an application from the `+` between “If” and “This”
-
-![temp](images/image.gif) 
-
+2. Select the `Create` button in the upper right hand corner.
+3. Select the `Add` button in thee "If This" section.
+4. Select a service from the list of services. You can also look for services you are familiar with. One of my favorite services to start with is "Weather Underground" which can allow you to make triggers based on the weather in specific cities.
 5. Select a trigger `service`
 6. Sign up for the service if you do not already have the service. Note you may choose to use a service you already have for convenience. Alternatively for security you may choose instead to create a new service account with a unique email to keep your primary accounts disconnected from IFTTT.
 
-![temp](images/image.gif) 
+![temp](images/network-architecture-tutorial-1.gif) 
 
-7. Choose a trigger
-8. Select the fields for your trigger, and select `Create trigger`
+
+7. Next you will fill out the trigger field which will allow you to set the threshold for your trigger. Note the trigger fields are unique to each service you choose.
+8. Next you will choose a trigger
+9. Select the fields for your trigger, and select `Create trigger`
 
 ![temp](images/image.gif) 
 
@@ -145,7 +148,7 @@ Sign up for the action service if you have not yet, if you are already signed up
 
 ![temp](images/image.gif) 
 
-![temp](images/16-network-architecture.gif) 
+
 
 
 
