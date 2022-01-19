@@ -1,18 +1,17 @@
 ---
 moduleid: 165
-title: Unity Intro and Agent Based Modeling
+title: Agent Based Modeling
 published: True
-slug: unity-intro-and-agent-based-modeling
+slug: agent-based-modeling
 ---
 
 Behavioral Modeling Intro:
 ===========================================
 
-# Unity Intro and Agent Based Modeling
+# Agent Based Modeling
 ## Module Summary
 
 In this intro you will learn how a basic agent based model works as well as its origins.
-Additionally you will get an intro to the Unity interface.
 
 
 ## Conceptual Introduction
@@ -35,17 +34,18 @@ A standard architectural Rhino model focused on the physical form at a fixed mom
 An agent based model focused on the flows, growth and movement over time. Focused on the **verb** so-to-speak of the built environement. 
 ![abm](images/abm-7.gif#img-full)
 
-While not a realistic representation of reality, agent based models can help us understand our world by creating simplistic models to test assumptions. Even from simple rules we can test how many complex behaviors emerge when these rules are applied to many agents. For example a simple rule to have a bird follow another bird within a short proximity to one another, creates complex clustering and swooping behavior that mimics a flocks of birds.
+While not a realistic representation of reality, agent based models can help us understand our world by creating simplistic models to test assumptions. Even from simple rules we can test how many complex behaviors emerge when these rules are applied to many agents. For example a simple rule to have a bird follow another bird within a short proximity to one another, creates complex clustering and swooping behavior that mimics a flocks of birds. You can learn more about this specific behavior of bird flocking programs or ["boids" here](https://en.wikipedia.org/wiki/Boids).
 
-How birds flock togeether:
+How birds flock together:   
 ![abm](images/abm-12.gif)
 
-description of an individual agent:
+description of an individual agent:   
 ![abm](images/abm-2.jpeg#img-full)
 
-example of emergent behavior when multiple agents act together creating the flocking behavior:
+behavior of multiple agents (abm):
 ![abm](images/abm-13.gif)
 
+Because agent based models are programmed in an additiive way where we add rules upon rules to individual agents, it is a particularly useful mechanism for learning to code because we can write bite size snippets of code for each rule we create and then see how that impacts the behavior both of an indivdual agent but also a full agent based model.
 
 ### Game Theory
 Agent based models have also been applied in the field of economics (especially macro-economics) to understand how people might make decisions given various conditions and behaviors. One of the most important aspect is that individual agents when compounded have emergent behaviorsnot apparent when viewed alone. In game theory this means the outcome of decisions cannot be understood by looking at how individuals make decisions alone. Instead you must take into account how an individual will make a decision taking into account that they are aware of how others will make decisions. An example of this is the Prisoner’s Dilemna.
@@ -58,11 +58,7 @@ John Nash, The Agencies Method For Modeling Coalitions and Cooperations In Games
 ## Tutorial
 ### Components of an Agent Based Model
 - **individuals (agents)** — could be humans, parcels of land, vehicles, animals, etc
-- **environment** — framework in which the interactions occur, i.e. a city, a neigh
-
-
-
-rhood, a floor plan, a room, etc
+- **environment** — framework in which the interactions occur, i.e. a city, a neighborhood, a floor plan, a room, etc
 - **behavior** — the procedural rules that define how the individuals behave — i.e. a person move away from other people if a space gets crowded, or a person may be attracted to other people with particular characteristics, etc
 - **parameters** — characteristics of the agent — i.e. a agent that is a person might have speed, size, distance the agent will stand next to other agents, etc
 - **input** — parameters that globally drive the model — i.e. population size of your agents, climate or location for your environment, or other data that is put into the model
@@ -74,8 +70,3 @@ rhood, a floor plan, a room, etc
 While we can recognize that these simulations are replicas of reality, the aim of simulation should also be to make our assumptions and biases explicit and testable, moving assumptions out of the black box of hidden algorithms. By clearly defining the elements of a simulation, assumptions can be vetted.
 
 ![abm](images/abm-5.png#img-full)
-
-Open simulation tools can extend agency to people outside of a disciplinary expertise. Gaming platforms can combine simulations across disciplines and have intuitive user interfaces that allow anyone to participate in rulesets usually encapsulated in an industry’s specific modeling technique and software.
-
-### Unity Intro
-
