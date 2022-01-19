@@ -10,7 +10,7 @@ In this module you will get a conceptual overview of the software technology tha
 - low and high programming
 - Cloud concepts - APIs, Microservices, Servers, CMs, Cloud, Edge Computing
 
-### Out of the Weeds and into the Clouds: Microservices
+### How the Cloud and Microservices Allow for High Level Programming
 #### Microservices Replace Monolithic Software Development
 The development of software today is drastically different from the development of software products ten years ago. Previously software products consisted of large **"monolithic"** software i.e. "a single-tiered software application in which the user interface and data access code are combined into a single program from a single platform". Monolithic software was developed and owned as proprietary by individual companies and usually stored on physical servers owned by those companies. Additionally this monolothic software development required hiring software developeres that could dig deep into the technical depths of the software to add or update the code.
 
@@ -23,7 +23,7 @@ The **"cloud""** refers to on-demand compute resources, typically servers (often
 
 #### Benefits of Microservice Structure
 The shift towards these smaller components enables a few important things that spatial designers should be aware of:
-- **Lowering Barriers to Entry** — It allows a non-technical user to create new applications with only the need to write tiny code snippets that execute one function rather than writing entire programs and worrying about servers and API protocols. By expanding the access to  microservices to non-technical users this means a much larger portion of people can program and customize services. The concept **"End User Programming"** refers to non-expert programming and is a key feature in many microservices and functions as a service as it expands who can access. End user programming and FaaS often rely on **"No Code"** or visual programming environments such as the one shown below.
+- **Lowering Barriers to Entry** — It allows a non-technical user to create new applications with only the need to write tiny code snippets that execute one function rather than writing entire programs and worrying about servers and API protocols. An **API** is an Application Programming Interface. The keyword here is interface that allows two apps to talk to each other. APIs are the doorways, so to speak, that allow developers to interact with an application. “contract” or set of clearly defined methods of communication between various services. By expanding the access to  microservices to non-technical users this means a much larger portion of people can program and customize services. The concept **"End User Programming"** refers to non-expert programming and is a key feature in many microservices and functions as a service as it expands who can access. End user programming and FaaS often rely on **"No Code"** or visual programming environments such as the one shown below.
 ![](images/low-hi-7.png)
 
 
@@ -39,15 +39,4 @@ The shift towards these smaller components enables a few important things that s
   - Take for example a ride sharing company that needs to provide billing services to its customers. Rather than develop software an expertise in billing, the company might use a microservice from another company that specializes in billing. Likewise the company that specializes in billing may also have a need to provide some mapping services or ride sharing services. This company would be better suited to access this service from another company vs develop it independently. This strategy allows companies to hone and spend resources developing their competitive advantage while also providing that competitive advantage as a service to other companies.
 
 ![](images/low-hi-4.jpeg)
-
-
-
-
-### Edge Computing
-
-- **Edge Computing** - brings computation and data storage closer to the sources of data. This is expected to improve response times and save bandwidth
-
-- **Virtual Machine** - emulation of a computer usually a distinct hardware  software combo
-
-- **API** - Application Programming Interface, - keyword is interface that allows two apps to talk to each other, APIs are the doorways, so to speak, that allow developers to interact with an application. “contract” or set of clearly defined methods of communication between various services
 
