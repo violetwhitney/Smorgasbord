@@ -22,9 +22,10 @@ In this tutorial we will use Behavior Bricks (a plugin for character animation) 
 
 ## Conceptual Introduction
 Behavior Bricks is a character animation plugin for Unity the gaming engine.
-What is quite useful about Behavior Bricks and character animation apps like it, is that it allows us to program behavior of an agent with high level programming. Behavior Bricks uses a node based Visual Programming Language (akin to Grasshopper) to program things like character movement, following, or other actions based on other triggers. This will be particularly useful for understanding how behaviors are related to one another in an agent based model.
+What is quite useful about Behavior Bricks and character animation apps like it, is that it allows us to program behavior of an agent with high level programming. Behavior Bricks uses a node based Visual Programming Language (akin to Grasshopper) to program things like character movement, following, or other actions based on other triggers. This will be particularly useful for modeling behaviors in relation to one another in an agent based model.
 
-![processing-diagram](images/webhook1-12.gif#img-full)
+
+<img width="899" alt="bb-43" src="https://user-images.githubusercontent.com/14256456/155209726-ca31e78c-d363-42a1-b445-f6a45f635d8d.png">
 
 
 ## Tutorial
