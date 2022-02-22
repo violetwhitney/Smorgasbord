@@ -22,7 +22,7 @@ Most computational modeling describes a system in a state of equilibrium in some
 Today, new technologies and methods are emerging for exploring and visualizing urban complexity through these many systems and invisible dimensions. Urban planning simulation, economic modeling, traffic simulation, operations research, and agent-based modeling comprise the new tools. Open data platforms and web based gaming applications give immense power to designers, researchers and engineers to create their own simulations.
 
 - [The Complexity Explorer](https://www.complexityexplorer.org/)   
-- [Examples of ABMs](http://www.complexity-explorables.org/explorables/)
+- [Examples of Agent Based Models](http://www.complexity-explorables.org/explorables/)
 
 ### Agent Based Models
 An agent-based model (ABM) is a class of computational models for simulating the actions and interactions of autonomous agents (both individual or collective entities such as organizations or groups) with a view to assessing their effects on the system as a whole. [ref Wikipedia]
@@ -42,7 +42,7 @@ How birds flock together:
 description of an individual agent:   
 ![abm](images/abm-2.jpeg#img-full)
 
-behavior of multiple agents (abm):
+behavior of multiple agents (abm):   
 ![abm](images/abm-13.gif)
 
 Because agent based models are programmed in an additiive way where we add rules upon rules to individual agents, it is a particularly useful mechanism for learning to code because we can write bite size snippets of code for each rule we create and then see how that impacts the behavior both of an indivdual agent but also a full agent based model.
