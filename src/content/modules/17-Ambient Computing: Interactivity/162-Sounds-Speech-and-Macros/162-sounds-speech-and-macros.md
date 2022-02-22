@@ -32,9 +32,13 @@ privacy           |  assumptions of race and gender in service |  reliance on te
 ![](images/sound-13.png)  |  ![](images/sound-12.png)  |  ![](images/sound-11.png)
 
 ### Inspirational projects
-![sound-1](images/sound_14.png#img-left)
 
 Below are some examples of artists using sound in Processing in their own work:
+[Sound Translator](https://vimeo.com/groups/processing/videos/3102434)
+[The Computer Orchestra](https://vimeo.com/74922458?embedded=true&source=vimeo_logo&owner=20728835)
+[Visual Sound Design](https://vimeo.com/12472962?embedded=true&source=vimeo_logo&owner=398601)
+[Fine Collection of Curious Objects](https://vimeo.com/10173262?embedded=true&source=vimeo_logo&owner=2777324)
+[Quad Soundscape Generator](https://vimeo.com/24359772?embedded=true&source=vimeo_logo&owner=1242706)
 [Sound Translator](https://vimeo.com/groups/processing/videos/3102434)
 
 
