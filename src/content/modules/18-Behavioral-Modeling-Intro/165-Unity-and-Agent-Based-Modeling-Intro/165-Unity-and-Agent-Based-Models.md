@@ -48,9 +48,9 @@ behavior of multiple agents (abm):
 Because agent based models are programmed in an additiive way where we add rules upon rules to individual agents, it is a particularly useful mechanism for learning to code because we can write bite size snippets of code for each rule we create and then see how that impacts the behavior both of an indivdual agent but also a full agent based model.
 
 ### Game Theory
-Agent based models have also been applied in the field of economics (especially macro-economics) to understand how people might make decisions given various conditions and behaviors. One of the most important aspect is that individual agents when compounded have emergent behaviorsnot apparent when viewed alone. In game theory this means the outcome of decisions cannot be understood by looking at how individuals make decisions alone. Instead you must take into account how an individual will make a decision taking into account that they are aware of how others will make decisions. An example of this is the Prisoner’s Dilemna.
-“I feel, personally, that the study of experimental games is the proper route of travel for finding the ‘ultimate truth’ in relation to games as played by human players.”
-John Nash, The Agencies Method For Modeling Coalitions and Cooperations In Games
+Agent based models have also been applied in the field of economics (especially macro-economics) to understand how people might make decisions given various conditions and behaviors. One of the most important aspect is that individual agents when compounded have emergent behaviorsnot apparent when viewed alone. In game theory this means the outcome of decisions cannot be understood by looking at how individuals make decisions alone. Instead you must take into account how an individual will make a decision taking into account that they are aware of how others will make decisions. An example of this is the Prisoner’s Dilemna.   
+“I feel, personally, that the study of experimental games is the proper route of travel for finding the ‘ultimate truth’ in relation to games as played by human players.”   
+-John Nash, The Agencies Method For Modeling Coalitions and Cooperations In Games
 
 ![abm](images/abm-3.gif#img-full)
 
