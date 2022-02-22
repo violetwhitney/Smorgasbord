@@ -14,26 +14,20 @@ Behavioral Modeling Intro:
 In this intro you will get an intro to Object Oriented Programming as well as how its applied in C# using Unity.
 
 
-## Conceptual Introduction
-Most=
-
-- [The Complexity Explorer](https://www.complexityexplorer.org/)   
-
-
-
-![abm](images/abm-3.gif#img-full)
-
-
-## Tutorial
+## Object Oriented Programming
 Thus far we’ve learned about functions, loops, and conditionals. Our programs execute as a set of sequential processes.
 In Object Oriented Programming, programs are more than a list of procedures, but use collections of interacting “objects.” Objects are like templated typologies with embedded rules.
 In a 3d modeling program like Revit, an object might be something like a window. The window object holds data and window-specific functions. Such awindow’s data (or sometimes called “state”) will describe the parameters of the window:
+![oop](images/oop-1.jpeg#img-full)
 - dimensions (e.g. 3’-0” x 1’-6” x 0’-6”)
 - frame material (e.g. metal)
 - pane (e.g. frosted glass)
 
+
 Functions associated with a window might control the height or the dimensions, while another controls the material and how the window renders. You can have functions that compute the area or cost of a window, or control whether it’s “open” or “closed.”
 So how does one object differ from another? Let’s look at some other example objects. You could have a class in Revit for a tree with functions to control the amount of foliage or the species.
+
+![oop](images/oop-2.png#img-full)
 
 Tree:
 - foliage (heavy)
@@ -44,7 +38,7 @@ Or how about the sun in a sunlight study in Revit? A sunlight study’s data mig
 - intensity (10)
 A function of the sun might control how the sun renders or calculate how bright it is inside a modeled building.
 
-What is a Class?
+### What is a Class?
 An object’s “class” describes the functions and parameters it can take. When an object is created from the class, it’s called an “instance” of the class.
 Think of a cookie cutter. A cookie cutter makes cookies, but it is not a cookie itself. The cookie cutter is the class, the cookies are the “instances.”
 For example, a Revit model may have 50 windows. How does our model keep track of all of those different windows? Some are small and short; some are large and tall; some are frosted; some are not. Each window may have different values for its parameters, but we can use lists and dictionaries to treat them like a collection.
