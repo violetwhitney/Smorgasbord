@@ -32,7 +32,6 @@ In the 1950s Frank and Lilian Gilbreth pioneered scientific management looking a
 In the same way online environments are AB Tested. Physical spaces have also been tested to be optimized. The film “The Founder” documents have furniture and layout of a restaurant was optimized to improve efficiency in a McDonalds.
 
 ![cv-3](images/cv-3.jpeg#img-left)
-VIDEO
 
 Today tactical urbanists AB test spaces deploying lightweight furniture in physical spaces:
 ![cv-4](images/cv-4.jpeg#img-left)
