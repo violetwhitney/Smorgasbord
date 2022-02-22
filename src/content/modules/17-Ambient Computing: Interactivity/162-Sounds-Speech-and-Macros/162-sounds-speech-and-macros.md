@@ -39,9 +39,7 @@ Below are some examples of artists using sound in Processing in their own work:
 
 
 
-## Tutorial
-
-### Playing Sounds 
+## Playing Sounds 
 1. From Processing go to `Sketch` → `Import Library`→ `Add Library` → search for **“sound”** and select `Sound` | Provides a simple way to work with audio → and click ↓ Install.
 
 2. Now in your Processing sketch copy in the following code from the codeblock below. If you get stuck, you can also [download the full sketch from here](https://drive.google.com/file/d/11ST40zIHw7ZzOZd78WWhkX1thc2AmTmv/view).
@@ -82,8 +80,11 @@ Drag and drop the sound files you’ve just downloaded into your sketch folder a
 
 5. You can find more free sounds by creating an account at [https://freesound.org/](https://freesound.org/) and downloading your own files that you would like to play.
 
+### Challenge
+- Level beginner - can you change this script to use another sound from [https://freesound.org/](https://freesound.org/)?
+- Level intermediate - can you have the sound change between multiple sound files based on the position of your mousee? 
 
-### Listening to Your Mic
+## Listening to Your Mic
 To listen to the mic on your computer copy and paste the text from below. You can also download this Processing file directly from here.
 ```java
 import processing.sound.*;
@@ -112,11 +113,12 @@ void draw() {
 }
 ```
 
-
 [![Listening to Your Mic](https://res.cloudinary.com/marcomontalbano/image/upload/v1636403273/video_to_markdown/images/youtube--5f6nnXDe4Aw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/5f6nnXDe4Aw "Listening to Your Mic")
 
+### Challenge
+- Level beginner - can you change this script to change the color of the ellipse based on the volume of the sound?
 
-### Text to Speech
+## Text to Speech
 **Getting A Mac Laptop to Speak**  
 Processing can execute commands outside of Processing. On macs we can make our computers do speech to text:
 
@@ -137,7 +139,7 @@ void setup(){
 ![sound-4](images/sounds_4.jpeg#img-left)
 
 **Speaking to the Amazon Echo**
-You can also make your Mac speak to an Amazon Echo:
+You can also make a Mac speak to an Amazon Echo:
 
 ```java
 void setup(){
