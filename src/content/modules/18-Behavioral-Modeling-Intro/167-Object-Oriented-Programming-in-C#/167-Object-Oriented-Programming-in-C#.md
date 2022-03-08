@@ -11,7 +11,12 @@ Behavioral Modeling Intro:
 # Object Oriented Programming in C#
 ## Module Summary
 
-In this intro you will get an intro to Object Oriented Programming as well as how its applied in C# using Unity.
+In this tutorial you will get:
+- a conceptual introduction to object oriented programming 
+- Learn about prefabs in Unity
+- Get acquainted with C# and how to connect code to behavior in Unity
+- Learn how object oriented programming is leveraged in C# and Unity
+
 
 
 ## Object Oriented Programming
@@ -72,5 +77,4 @@ class Window(object):
 These parameters (windowWidth, windowHeight, glazing) are all custom parameters that I created.
 You’ll notice this variable self, think of self as the way in which a class references itself.
 When we say self.parameter that lets us know that we are talking about a parameter for that particular instance. Within the initialization function we can define new variables using the self.parameter so that we can reference the parameter for a particular instance later on.
-
 
