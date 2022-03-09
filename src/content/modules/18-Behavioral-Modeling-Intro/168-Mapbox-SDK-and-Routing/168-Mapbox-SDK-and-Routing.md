@@ -1,14 +1,14 @@
 ---
 moduleid: 168
-title: Mapbox SDK and Routing
+title: Mapbox SDK
 published: True
-slug: mapbox-sdk-and-routing
+slug: mapbox-sdk
 ---
 
 Behavioral Modeling Intro:
 ===========================================
 
-# Mapbox SDK and Routing
+# Mapbox SDK
 ## Module Summary
 
 In this intro you will get an intro to the Mapbox SDK for Unity as well as what an SDK (software development kit) is.
