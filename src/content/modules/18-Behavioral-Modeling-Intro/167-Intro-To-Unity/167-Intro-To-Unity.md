@@ -40,7 +40,7 @@ You can also find many more [Unity tutorials here](https://learn.unity.com/).
    - For now you can ignore the “asset packages”. 
    - Keep Unity Analytics Off and click “Create project”.
 ### 4. The Unity Interface 
-- ![mapbox](images/mapbox-1.gif#img-full)
+  ![mapbox](images/167-unity-ui.png#img-full)
 - **Scene View**
    - This is where you will model your simulation. This is akin to any 3d modeling view in an app such as Rhino or 3ds Max. 
 - **Game View**
@@ -65,8 +65,18 @@ Thee search bar within your hierarchy window can facilitate navigating the GameO
  - **Play Buttons**
    - If you are familiar with other programming environments for example Processing or XCode you will be familiar with play and stop buttons to run code. Similarly here the play button allows you to run your simulation so you can understand how your simulation will behave when actively being played.
 
-
-
+## Creating Your First Project
+- In this segment you will get familiar with the Unity learning content to set up your first game and get familiar with all of the basic structure necessary for a game.
+- Follow along with the "Roll-A-Ball"Unity Tutorials:
+   - [Setting up the Game](https://learn.unity.com/tutorial/setting-up-the-game?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d#5f0fbb98edbc2a0020763e90)
+   - [Moving thee Player](https://learn.unity.com/tutorial/moving-the-player?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d#)
+   - [Moving the Camera](https://learn.unity.com/tutorial/moving-the-camera?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d#)
+   - [Setting up the Play Area](https://learn.unity.com/tutorial/setting-up-the-play-area?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d)
+   - [Creating Collectables](https://learn.unity.com/tutorial/creating-collectibles?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d)
+   - [Detecting Collisions with Collectibles](https://learn.unity.com/tutorial/detecting-collisions-with-collectibles?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d)
+   - [Displaying Score and Text](https://learn.unity.com/tutorial/displaying-score-and-text?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d#)
+   - [Building the Game](https://learn.unity.com/tutorial/building-the-game?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d#)
+   
 
 
 
