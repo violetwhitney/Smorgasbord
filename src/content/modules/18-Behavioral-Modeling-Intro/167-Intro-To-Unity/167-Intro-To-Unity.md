@@ -24,15 +24,21 @@ Here are some fantastic  [example unity games](https://unity.com/madewith) to ge
 You can also find many more [Unity tutorials here](https://learn.unity.com/).  
 
 ## Tutorial
-![mapbox](images/167-unity-login.gif#img-full)
+
 ### 1. Download Unity
 - **Download Unity** - You can download a free personal version [here](https://store.unity.com/#plans-individual). If you are on a Columbia GSAPP computer, Unity should already be installed. It is more ideal to download the version for windows as it will integrate with behavior bricks. Follow the screen prompts to “Download the installer for Windows” (click continue and accept the license agreement). 
 ### 2. Create a Unity Account 
+![mapbox](images/167-unity-login.gif#img-full)
 - Once the installation is complete, launch Unity. You’ll be prompted to a Unity sign in. If you don’t have one, create a Unity account (free) under “create one”.
 - Follow the sign in prompts adding your user information and license details.
 ### 3. Create your first Unity Project
 - Once you’ve logged in you will be prompted to create a new project. Select “New Project”
-- Fill in a project name. Template should be “3D”. This just means your simulation will have 3 dimensions (x,y,z) vs 2 dimensions. Select a location on your computer where you will save your project. You will need to be connected to the internet to access Unity, however your project is stored locally on your machine. For now you can ignore the “asset packages”. Keep Unity Analytics Off and click “Create project”.
+- Next you will fill out thee details of your new project.
+   - Fill in a project name of your choosing. 
+   - Template should be “3D”. This just means your simulation will have 3 dimensions (x,y,z) vs 2 dimensions. 
+   - Select a location on your computer where you will save your project. You will need to be connected to the internet to access Unity, however your project is stored locally on your machine. 
+   - For now you can ignore the “asset packages”. 
+   - Keep Unity Analytics Off and click “Create project”.
 ### 4. The Unity Interface 
 - ![mapbox](images/mapbox-1.gif#img-full)
 - **Scene View**
