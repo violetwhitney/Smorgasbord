@@ -1,8 +1,10 @@
 ---
-moduleid: 12
+moduleid: 120
 title: Introduction to Rhino
 published: True
 slug: introduction-to-rhino
+authors:
+ - "Zachary White"
 ---
 # Sequence: Introduction to Rhino
 ## Sequence Summary:

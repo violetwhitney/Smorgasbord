@@ -21,6 +21,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/global.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -32,6 +33,16 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+
+    ['@nuxtjs/google-fonts', {
+      families: {
+        Lato: true,
+        'IBM Plex Sans': [300, 400, 700],
+      },
+    }],
+
+
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -74,5 +85,22 @@ export default {
         loader: 'ignore-loader'
       })
     }
-  }
+  },
+
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      if (document.extension === '.md') {
+        const { time } = require('reading-time')(document.text);
+
+        const uniqueLinks = [...new Set(document.text.match(/\[\[(.*?)\]]/g))];
+
+        document.readingTime = time;
+        document.uniqueLinks = uniqueLinks;
+      }
+    }
+  },
+
+
+
+
 }
